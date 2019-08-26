@@ -1,0 +1,15 @@
+const proxy = require("http-proxy-middleware");
+
+module.exports = (app) => {
+    app.use(
+        proxy(
+            "/api", {
+                target: "http://m.laiyifen.com",
+                changeOrigin: true,
+            },
+            "/cms", {
+                target: " http://m.laiyifen.com/",
+                changeOrigin: true,
+            }
+        ))
+}
