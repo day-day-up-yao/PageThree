@@ -7,7 +7,7 @@ module.exports = override(
         ["@actions"]:path.resolve(__dirname,"./src/actions"),
         ["@api"]:path.resolve(__dirname,"./src/api"),
         ["@common"]:path.resolve(__dirname,"./src/common"),
-        ["@components"]:path.resolve(__dirname,"./src/components"),
+        ["@component"]:path.resolve(__dirname,"./src/component"),
         ["@pages"]:path.resolve(__dirname,"./src/pages"),
         ["@router"]:path.resolve(__dirname,"./src/router"),
         ["@static"]:path.resolve(__dirname,"./src/static"),

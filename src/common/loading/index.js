@@ -3,7 +3,10 @@ import "./index.css"
 export default class Loading extends Component {
   render() {
     return (
-      <div className="lds-ripple"><div></div><div></div></div>
+      <div className="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
     )
   }
 }

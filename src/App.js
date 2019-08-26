@@ -11,8 +11,7 @@ export default class App extends Component{
             routeConfig.map((item,index)=>(
               <BaseRoute key={index} {...item}/> 
             ))
-          }
-          
+          } 
        </Switch>
       )
     }
