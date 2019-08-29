@@ -1,0 +1,94 @@
+import { Home,List,Allreth,Shopcar, Mine,Login,City,Search,Searchoth,Shopyes} from '../pages';
+export const tabBtnRoute=[
+    {
+        path:"/home",
+        component:Home,
+        meta:{
+            flag:true
+        },
+        name:"首页",
+        icon:"\ue614"
+    },
+    {
+        path:"/list",
+        component:List,
+        meta:{
+            flag:true
+        },
+        name:"分类",
+        icon:"\ue61f"
+    },
+    {
+        path:"/allreth",
+        component:Allreth,
+        meta:{
+            flag:true
+        },
+        name:"全球分类",
+        icon:"\ue72f"
+    },
+    {
+        path:"/shopcar",
+        component:Shopcar,
+        meta:{
+            flag:true
+        },
+        name:"购物车",
+        icon:"\ue61c"
+    },
+    {
+        path:"/mine",
+        component:Mine,
+        meta:{
+            flag:true
+        },
+        name:"我的",
+        icon:"\ue613"
+    }
+]
+
+export const noTabBarRoute = [
+    {
+        path:"/login",
+        component:Login,
+        meta:{
+            flag:false
+        },
+        name:"登录",
+       
+    },
+    {
+        path:"/city",
+        component:City,
+        meta:{
+            flag:false
+        },
+        name:"城市",
+       
+    },
+    {
+        path:"/search",
+        component:Search,
+        meta:{
+            flag:false
+        },
+        name:"搜索",
+    },
+    {
+        path:"/searchoth",
+        component:Searchoth,
+        meta:{
+            flag:false
+        },
+        name:"搜索",     
+    },
+    {
+        path:"/shopyes",
+        component:Shopyes,
+        meta:{
+            flag:false
+        },
+        name:"购物车", 
+    }
+]
+export const routeConfig = tabBtnRoute.concat(noTabBarRoute)

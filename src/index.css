@@ -1,0 +1,17 @@
+/* div{
+    height:100%;
+} */
+h2{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+    position:fixed;
+    top:0;
+    left:0
+}

@@ -1,0 +1,15 @@
+div{
+    height:100;
+    position: fixed;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+    opacity: 1;
+}
